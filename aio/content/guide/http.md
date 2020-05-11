@@ -63,7 +63,7 @@ Look at the `AppModule` _imports_ to see how it is configured.
 ## Requesting data from a server
 
 Use the [`HTTPClient.get()`](api/common/http/HttpClient#get) method to fetch data from a server.
-The aynchronous method sends an HTTP request, and returns an Observable that emits the requested data when the response is received.
+The asynchronous method sends an HTTP request, and returns an Observable that emits the requested data when the response is received.
 The return type varies based on the `observe` and `responseType` values that you pass to the call.
 
 The `get()` method takes two arguments; the endpoint URL from which to fetch, and an *options* object that you can use to configure the request.
